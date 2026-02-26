@@ -248,41 +248,430 @@
                 </div>
                 <div class="md:col-span-3 space-y-8 text-gray-400 leading-relaxed">
                     <p>
-                        Currently pursuing a degree in <span class="text-white font-medium">Electronics Engineering (VLSI Design and Technology)</span> at <span class="text-white">Anna University</span> (Batch 2025–2029), Arshad has worked on software systems for complex visualization.
+                        Currently pursuing a degree in <span class="text-white font-medium">Electronics Engineering (VLSI Design and Technology)</span> at <span class="text-white">Anna University</span> (Batch 2025–2029), Arshad has independently built and shipped a broad range of full-stack software systems — spanning real-time communication, media streaming, AI, and academic automation.
                     </p>
-                    <ul class="space-y-6">
-                        <li>
-                            <strong class="text-white block mb-1">DSL Flowchart Engine</strong>
-                            Developed a proprietary engine that translates high-level code into academic-standard flowcharts via a custom Domain Specific Language (DSL), leveraging LLM-to-DSL conversion for architectural precision.
-                        </li>
-                        <li>
-                            <strong class="text-white block mb-1">Cadevel Engine</strong>
-                            Architected a system capable of interpreting natural language engineering graphics problems and programmatically generating step-by-step drafting video explanations.
-                        </li>
-                    </ul>
+
+                    <!-- Core Engines -->
+                    <div>
+                        <p class="text-[10px] tracking-[0.3em] text-gray-500 uppercase font-bold mb-4">Proprietary Engines</p>
+                        <div class="space-y-6">
+                            <div class="border-l-2 border-white/20 pl-6">
+                                <strong class="text-white block mb-1">DSL Flowchart Engine</strong>
+                                A proprietary engine that translates high-level code into academic-standard flowcharts via a custom Domain Specific Language, leveraging LLM-to-DSL conversion for architectural precision. Core component of the Lumetrix platform.
+                            </div>
+                            <div class="border-l-2 border-white/20 pl-6">
+                                <strong class="text-white block mb-1">CADEVEL Engine</strong>
+                                Interprets natural language engineering graphics problems and programmatically generates step-by-step technical drafting explanations. Powers the EngDraft platform.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Communication Systems -->
+                    <div>
+                        <p class="text-[10px] tracking-[0.3em] text-gray-500 uppercase font-bold mb-4">Communication Systems</p>
+                        <div class="space-y-6">
+                            <div class="border-l-2 border-white/20 pl-6">
+                                <strong class="text-white block mb-1">Encrypted Real-Time Messaging Platform</strong>
+                                <span class="text-[10px] tracking-widest text-gray-600 uppercase">Flutter · Firebase</span>
+                                <p class="mt-2">A full-featured end-to-end encrypted chat system with real-time message delivery, read receipts, and media sharing. Built with a Flutter frontend and Firebase real-time infrastructure, supporting one-on-one and group conversations with persistent message history.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Media Platforms -->
+                    <div>
+                        <p class="text-[10px] tracking-[0.3em] text-gray-500 uppercase font-bold mb-4">Media Platforms</p>
+                        <div class="space-y-6">
+                            <div class="border-l-2 border-white/20 pl-6">
+                                <strong class="text-white block mb-1">Video Streaming Platform</strong>
+                                <span class="text-[10px] tracking-widest text-gray-600 uppercase">Flutter · Firebase</span>
+                                <p class="mt-2">A full-stack video streaming application supporting upload, playback, channel management, and user subscriptions. Architected around Firebase for real-time metadata sync and Flutter for a cross-platform client experience.</p>
+                            </div>
+                            <div class="border-l-2 border-white/20 pl-6">
+                                <strong class="text-white block mb-1">Audio Streaming Platform</strong>
+                                <span class="text-[10px] tracking-widest text-gray-600 uppercase">Flutter · Firebase</span>
+                                <p class="mt-2">A cross-platform audio streaming application with playlist management, artist discovery, and real-time playback controls. Designed around a Flutter UI layer backed by Firebase for content delivery and user state management.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI & Automation -->
+                    <div>
+                        <p class="text-[10px] tracking-[0.3em] text-gray-500 uppercase font-bold mb-4">AI & Automation</p>
+                        <div class="space-y-6">
+                            <div class="border-l-2 border-white/20 pl-6">
+                                <strong class="text-white block mb-1">Instapresent — AI Attendance System</strong>
+                                <span class="text-[10px] tracking-widest text-gray-600 uppercase">Flutter · Firebase · Flask</span>
+                                <p class="mt-2">A face recognition and AI-driven smart attendance system built as a competitive prototype. Combines a Flutter mobile client with a Flask-powered inference backend and Firebase for real-time data persistence. Designed for institutional deployment with minimal manual overhead.</p>
+                            </div>
+                            <div class="border-l-2 border-white/20 pl-6">
+                                <strong class="text-white block mb-1">Mikey — Voice-First AI Chatbot</strong>
+                                <span class="text-[10px] tracking-widest text-gray-600 uppercase">Flutter · Firebase · Mistral API</span>
+                                <p class="mt-2">An audio-native conversational AI assistant powered by the Mistral language model. Users interact entirely through voice; the system transcribes input, processes intent via Mistral, and responds with synthesized audio — delivering a hands-free, natural AI interaction loop.</p>
+                            </div>
+                            <div class="border-l-2 border-white/20 pl-6">
+                                <strong class="text-white block mb-1">Lumetrix v1 — Automated Academic PDF Generator</strong>
+                                <span class="text-[10px] tracking-widest text-gray-600 uppercase">React · Flutter · Playwright · FastAPI · Firebase</span>
+                                <p class="mt-2">The foundational version of what became the Lumetrix platform. An automated pipeline that scrapes structured data from JupyterLab environments using Playwright, injects code, captures execution output screenshots, and synthesizes a complete academic-grade PDF — including algorithm write-ups, DSL-generated flowcharts, and code blocks — with zero manual formatting.</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
         <section class="border-t border-base pt-20 reveal" style="animation-delay: 0.4s;">
-            <h2 class="serif text-xl mb-12 text-white text-center md:text-left">Product Ecosystem</h2>
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-1">
+                    <h2 class="serif text-xl text-white">Product Ecosystem</h2>
+                    <p class="text-[10px] tracking-[0.2em] text-gray-600 uppercase leading-relaxed" style="margin-top:14px;">All software independently designed &amp; built.</p>
+                </div>
+                <div class="md:col-span-3">
+                    <p class="text-gray-500 text-sm leading-relaxed">Eight software systems built across communication, media, AI, and academic automation — all independently designed, engineered, and shipped by Arshad Azeez M under the SidhiLynx umbrella.</p>
+                </div>
+            </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-1">
-                <a href="https://sidhi.xyz" class="group border border-base p-8 hover:bg-white hover:text-black transition-all duration-500">
-                    <p class="text-[9px] tracking-[0.3em] text-gray-500 mb-4 uppercase font-bold">Protocol</p>
-                    <p class="font-medium text-lg tracking-tight">SidhiLynx</p>
+
+                <a href="https://sidhi.xyz" class="pe-card group border border-base hover:bg-white hover:text-black transition-all duration-500">
+                    <p class="pe-tag text-gray-500 group-hover:text-gray-600">Protocol · Holding Entity</p>
+                    <p class="pe-name">SidhiLynx</p>
+                    <p class="pe-desc text-gray-600 group-hover:text-gray-500">Parent technology company governing all platforms and products.</p>
                 </a>
-                <a href="https://lumetrix.sidhi.xyz" class="group border border-base p-8 hover:bg-blue-600 hover:text-white transition-all duration-500">
-                    <p class="text-[9px] tracking-[0.3em] text-gray-500 mb-4 uppercase font-bold">Automation</p>
-                    <p class="font-medium text-lg tracking-tight">Lumetrix</p>
+
+                <a href="https://lumetrix.sidhi.xyz" class="pe-card group border border-base hover:bg-blue-600 hover:text-white transition-all duration-500">
+                    <p class="pe-tag text-gray-500 group-hover:text-blue-200">Automation · Academic</p>
+                    <p class="pe-name">Lumetrix</p>
+                    <p class="pe-desc text-gray-600 group-hover:text-blue-100">Automated document generation, DSL flowcharts, and JupyterLab PDF synthesis.</p>
                 </a>
-                <a href="https://engdraft.sidhi.xyz" class="group border border-base p-8 hover:bg-red-800 hover:text-white transition-all duration-500">
-                    <p class="text-[9px] tracking-[0.3em] text-gray-500 mb-4 uppercase font-bold">EdTech</p>
-                    <p class="font-medium text-lg tracking-tight">EngDraft</p>
+
+                <a href="https://engdraft.sidhi.xyz" class="pe-card group border border-base hover:bg-red-800 hover:text-white transition-all duration-500">
+                    <p class="pe-tag text-gray-500 group-hover:text-red-200">EdTech · Engineering</p>
+                    <p class="pe-name">EngDraft / CADEVEL</p>
+                    <p class="pe-desc text-gray-600 group-hover:text-red-100">Step-by-step technical drafting explanations powered by the CADEVEL engine.</p>
                 </a>
+
+                <div class="pe-card group border border-base hover:bg-white/5 transition-all duration-500">
+                    <p class="pe-tag text-gray-500">Communication · Security</p>
+                    <p class="pe-name text-white">E2E Chat System</p>
+                    <p class="pe-desc text-gray-600">End-to-end encrypted real-time messaging with group support, read receipts &amp; media sharing.</p>
+                    <p class="pe-stack">Flutter · Firebase</p>
+                </div>
+
+                <div class="pe-card group border border-base hover:bg-white/5 transition-all duration-500">
+                    <p class="pe-tag text-gray-500">AI · Voice Interface</p>
+                    <p class="pe-name text-white">Mikey</p>
+                    <p class="pe-desc text-gray-600">Audio-native AI chatbot powered by Mistral. Fully voice-in, voice-out — no typing required.</p>
+                    <p class="pe-stack">Flutter · Firebase · Mistral</p>
+                </div>
+
+                <div class="pe-card group border border-base hover:bg-white/5 transition-all duration-500">
+                    <p class="pe-tag text-gray-500">AI · Attendance</p>
+                    <p class="pe-name text-white">Instapresent</p>
+                    <p class="pe-desc text-gray-600">Face recognition and AI-powered smart attendance built for institutional deployment.</p>
+                    <p class="pe-stack">Flutter · Firebase · Flask</p>
+                </div>
+
+                <div class="pe-card group border border-base hover:bg-white/5 transition-all duration-500">
+                    <p class="pe-tag text-gray-500">Media · Streaming</p>
+                    <p class="pe-name text-white">Video Platform</p>
+                    <p class="pe-desc text-gray-600">Full-stack video upload and streaming with channels, subscriptions, and real-time metadata.</p>
+                    <p class="pe-stack">Flutter · Firebase</p>
+                </div>
+
+                <div class="pe-card group border border-base hover:bg-white/5 transition-all duration-500">
+                    <p class="pe-tag text-gray-500">Media · Audio</p>
+                    <p class="pe-name text-white">Audio Platform</p>
+                    <p class="pe-desc text-gray-600">Cross-platform audio streaming with playlists, artist pages, and real-time playback state.</p>
+                    <p class="pe-stack">Flutter · Firebase</p>
+                </div>
+
             </div>
         </section>
 
-        <!-- FIX 8: Added Twitter/X and Crunchbase links + FIX 10: Updated copyright year -->
+        <style>
+            .pe-card {
+                padding: 28px 28px 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+            }
+            .pe-tag {
+                font-family: 'IBM Plex Mono', monospace;
+                font-size: 9px;
+                letter-spacing: 0.3em;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin-bottom: 16px;
+                line-height: 1.6;
+            }
+            .pe-name {
+                font-size: 1.2rem;
+                font-weight: 500;
+                letter-spacing: -0.02em;
+                line-height: 1.2;
+                margin-bottom: 12px;
+            }
+            .pe-desc {
+                font-size: 0.8rem;
+                line-height: 1.65;
+                flex: 1;
+            }
+            .pe-stack {
+                font-family: 'IBM Plex Mono', monospace;
+                font-size: 9px;
+                letter-spacing: 0.15em;
+                color: #374151;
+                text-transform: uppercase;
+                margin-top: 18px;
+                padding-top: 14px;
+                border-top: 1px solid #1a1a1a;
+            }
+        </style>
+
+        <!-- Currently Building -->
+        <section class="border-t border-base pt-20 reveal" style="animation-delay: 0.45s;">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-1">
+                    <h2 class="serif text-xl text-white">Currently</h2>
+                    <div style="display:flex;align-items:center;gap:8px;margin-top:14px;">
+                        <span style="width:7px;height:7px;border-radius:50%;background:#22c55e;display:inline-block;box-shadow:0 0 0 3px rgba(34,197,94,0.2);animation:blink 2s ease-in-out infinite;"></span>
+                        <span class="text-[10px] tracking-[0.2em] text-gray-600 uppercase">Active</span>
+                    </div>
+                </div>
+                <div class="md:col-span-3 space-y-1">
+                    <div class="current-row">
+                        <span class="current-label">Role</span>
+                        <span class="current-val">Founder &amp; CEO, SidhiLynx</span>
+                    </div>
+                    <div class="current-row">
+                        <span class="current-label">Education</span>
+                        <span class="current-val">B.Tech Electronics Engineering (VLSI), Anna University — Batch 2025–2029</span>
+                    </div>
+                    <div class="current-row">
+                        <span class="current-label">Building</span>
+                        <span class="current-val">Lumetrix v2 · EngDraft public release · SidhiLynx platform launch</span>
+                    </div>
+                    <div class="current-row" style="border-bottom:none;">
+                        <span class="current-label">Based in</span>
+                        <span class="current-val">Chennai, Tamil Nadu, India</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Areas of Focus — SEO rich content -->
+        <section class="border-t border-base pt-20 reveal" style="animation-delay: 0.48s;">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="md:col-span-1">
+                    <h2 class="serif text-xl text-white">Focus Areas</h2>
+                    <p class="text-[10px] tracking-[0.2em] text-gray-600 uppercase leading-relaxed" style="margin-top:14px;">Long-term research &amp; build interests.</p>
+                </div>
+                <div class="md:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-1">
+                    <div class="focus-card">
+                        <p class="focus-title">Education Technology</p>
+                        <p class="focus-desc">Designing software systems that make technical education more accessible, structured, and automatable — from engineering drawing to programming pedagogy.</p>
+                    </div>
+                    <div class="focus-card">
+                        <p class="focus-title">Institutional Automation</p>
+                        <p class="focus-desc">Building tools that eliminate manual overhead in academic and organizational workflows — attendance, document generation, reporting, and process orchestration.</p>
+                    </div>
+                    <div class="focus-card">
+                        <p class="focus-title">AI-Native Applications</p>
+                        <p class="focus-desc">Integrating large language models and AI inference directly into production applications — from voice-first interfaces to automated content synthesis pipelines.</p>
+                    </div>
+                    <div class="focus-card" style="border-bottom:1px solid #1a1a1a;">
+                        <p class="focus-title">Cross-Platform Systems</p>
+                        <p class="focus-desc">Engineering unified codebases that run natively on mobile, web, and desktop — prioritizing performance, real-time sync, and consistent user experience across surfaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            @keyframes blink {
+                0%, 100% { opacity: 1; }
+                50% { opacity: 0.4; }
+            }
+            .current-row {
+                display: grid;
+                grid-template-columns: 120px 1fr;
+                border-bottom: 1px solid #111;
+                padding: 14px 0;
+                gap: 16px;
+                align-items: start;
+            }
+            .current-label {
+                font-family: 'IBM Plex Mono', monospace;
+                font-size: 9px;
+                letter-spacing: 0.25em;
+                text-transform: uppercase;
+                color: #4b5563;
+                padding-top: 2px;
+            }
+            .current-val {
+                font-size: 0.875rem;
+                color: #d1d5db;
+                line-height: 1.6;
+            }
+            .focus-card {
+                border: 1px solid #1a1a1a;
+                padding: 24px;
+            }
+            .focus-title {
+                font-size: 0.875rem;
+                font-weight: 600;
+                color: #ffffff;
+                margin-bottom: 10px;
+                letter-spacing: -0.01em;
+            }
+            .focus-desc {
+                font-size: 0.8rem;
+                color: #6b7280;
+                line-height: 1.7;
+            }
+        </style>
+
+        
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-1">
+                <div class="border border-base p-8 text-center">
+                    <p class="text-white text-5xl font-bold tracking-tight">8+</p>
+                    <p class="text-[10px] tracking-[0.3em] text-gray-500 uppercase font-bold mt-3">Projects Built</p>
+                </div>
+                <div class="border border-base p-8 text-center">
+                    <p class="text-white text-5xl font-bold tracking-tight">3</p>
+                    <p class="text-[10px] tracking-[0.3em] text-gray-500 uppercase font-bold mt-3">Live Platforms</p>
+                </div>
+                <div class="border border-base p-8 text-center">
+                    <p class="text-white text-5xl font-bold tracking-tight">2</p>
+                    <p class="text-[10px] tracking-[0.3em] text-gray-500 uppercase font-bold mt-3">Proprietary Engines</p>
+                </div>
+                <div class="border border-base p-8 text-center">
+                    <p class="text-white text-5xl font-bold tracking-tight">1</p>
+                    <p class="text-[10px] tracking-[0.3em] text-gray-500 uppercase font-bold mt-3">Registered MSME</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack -->
+        <section class="border-t border-base pt-20 reveal" style="animation-delay: 0.55s;">
+            <div class="grid md:grid-cols-4 gap-8 items-start">
+                <div class="md:col-span-1">
+                    <h2 class="serif text-xl text-white">Tech Stack</h2>
+                    <p class="text-[10px] tracking-[0.2em] text-gray-600 uppercase leading-relaxed" style="margin-top: 14px;">Languages, frameworks<br>&amp; infrastructure.</p>
+                </div>
+                <div class="md:col-span-3">
+                    <div class="ts-grid">
+
+                        <div class="ts-row">
+                            <span class="ts-label">Languages</span>
+                            <div class="ts-items">
+                                <span class="ts-item">C</span>
+                                <span class="ts-item">C++</span>
+                                <span class="ts-item">Java</span>
+                                <span class="ts-item">Python</span>
+                                <span class="ts-item">Dart</span>
+                                <span class="ts-item">Go</span>
+                                <span class="ts-item">JavaScript</span>
+                                <span class="ts-item">HTML</span>
+                                <span class="ts-item">CSS</span>
+                            </div>
+                        </div>
+
+                        <div class="ts-row">
+                            <span class="ts-label">Frontend &amp; Mobile</span>
+                            <div class="ts-items">
+                                <span class="ts-item ts-item--bright">Flutter</span>
+                                <span class="ts-item ts-item--bright">React</span>
+                                <span class="ts-item ts-item--bright">Next.js</span>
+                            </div>
+                        </div>
+
+                        <div class="ts-row" style="border-bottom: none;">
+                            <span class="ts-label">Backend &amp; Infra</span>
+                            <div class="ts-items">
+                                <span class="ts-item ts-item--bright">FastAPI</span>
+                                <span class="ts-item ts-item--bright">Flask</span>
+                                <span class="ts-item ts-item--bright">Firebase</span>
+                                <span class="ts-item ts-item--bright">MongoDB</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .ts-grid {
+                border: 1px solid #1a1a1a;
+            }
+            .ts-row {
+                display: grid;
+                grid-template-columns: 160px 1fr;
+                border-bottom: 1px solid #1a1a1a;
+                min-height: 72px;
+            }
+            .ts-label {
+                display: flex;
+                align-items: center;
+                padding: 16px 20px;
+                font-family: 'IBM Plex Mono', monospace;
+                font-size: 9px;
+                letter-spacing: 0.25em;
+                text-transform: uppercase;
+                color: #4b5563;
+                border-right: 1px solid #1a1a1a;
+                line-height: 1.5;
+            }
+            .ts-items {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                gap: 0;
+                padding: 12px 16px;
+            }
+            .ts-item {
+                font-family: 'IBM Plex Mono', monospace;
+                font-size: 11px;
+                font-weight: 500;
+                letter-spacing: 0.08em;
+                color: #9ca3af;
+                padding: 6px 14px;
+                border: 1px solid transparent;
+                cursor: default;
+                transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+                margin: 3px;
+                white-space: nowrap;
+            }
+            .ts-item:hover {
+                color: #ffffff;
+                border-color: #444;
+                background: rgba(255,255,255,0.04);
+            }
+            .ts-item--bright {
+                color: #e5e7eb;
+                font-weight: 600;
+            }
+            .ts-item--bright:hover {
+                color: #ffffff;
+                border-color: #ffffff;
+                background: rgba(255,255,255,0.06);
+            }
+
+            @media (max-width: 640px) {
+                .ts-row {
+                    grid-template-columns: 1fr;
+                }
+                .ts-label {
+                    border-right: none;
+                    border-bottom: 1px solid #1a1a1a;
+                    padding: 12px 16px;
+                }
+            }
+        </style>
+
+        
         <footer class="border-t border-base pt-20 pb-32 reveal" style="animation-delay: 0.6s;">
             <div class="flex flex-col md:flex-row justify-between items-center gap-8">
                 <div class="flex gap-8">
