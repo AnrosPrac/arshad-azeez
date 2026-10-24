@@ -13,7 +13,7 @@ I am a tech entrepreneur focused on solving real-world problems through simple, 
 - 📍 **Location:** India
 
 ### 🏢 About SidhiLynx
-SidhiLynx is the software company behind [Arsaze](https://arsaze.com/), the AI-native video editor, and [Lumetrix Play](https://lumetrixplay.sidhi.xyz/), AI-powered personalized coding paths.
+SidhiLynx is the parent company behind [Arsaze](https://arsaze.com/), the AI-native video editor, and [Lumetrix Play](https://lumetrixplay.sidhi.xyz/), AI-powered personalized coding paths.
 
 ### 🌐 Connect with Me
 - **LinkedIn:** [linkedin.com/in/arshad-azeez-m](https://www.linkedin.com/in/arshad-azeez-m)
